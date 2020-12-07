@@ -29,15 +29,21 @@
 ### FEVRIER ADOLFO VALDEZ ACOSTA
 
 ## Índice
-> * [Introduccion](#id1)
-> * [Justificacion](#id2)
-> * [Funcionamiento](#id3)
+> * [Introduccion](#id-introduccion)
+> * [Justificacion](#id-justificacion)
+> * [Funcionamiento](#id-funcionamiento)
 
-# Introducción <a name='#id1'></a>
+<div id='id-introduccion'/>
 
-# Justificación <a name='#id2'></a>
+# Introducción 
 
-# Funcionamiento <a name='#id3'></a>
+<div id='id-justificacion'/>
+
+# Justificación
+
+<div id='id-funcionamiento'/>
+
+# Funcionamiento
 
 Para establecer un servidor y una base de datos que soporte la información ingresada en el registro de usuarios, se utilizó XAMPP. ¿Qué es XAMPP? Es un servidor independiente de plataforma, software libre, que consiste principalmente en la base de datos MySQL, el servidor web Apache y los intérpretes para lenguajes de script: PHP y Perl.
 
