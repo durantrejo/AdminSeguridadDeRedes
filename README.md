@@ -29,9 +29,9 @@
 ### FEVRIER ADOLFO VALDEZ ACOSTA
 
 ## Índice
-[Introduccion](#id1)
-[Justificacion](#id2)
-[Funcionamiento](#id3)
+> * [Introduccion](#id1)
+> * [Justificacion](#id2)
+> * [Funcionamiento](#id3)
 
 # Introducción <a name='#id1'></a>
 
