@@ -38,10 +38,13 @@
 # Introducción 
 
 <div id='id-justificacion'/>
+El proyecto a desarrollar se basa en una aplicación web enfocada en la gestión de envío de correos electrónicos; dicha aplicación constará de de cuatro páginas (dos locales y dos remotas), las cuales están representadas en el siguiente diagrama:
+
 
 # Justificación
 
 <div id='id-funcionamiento'/>
+El propósito de su funcionamiento es presentar una plataforma donde se pueda manejar el envío de correos electrónicos desde un servidor Apache y en colaboración con dos de las principales empresas que se dedican al envío de mensajería digital (Google y Microsoft).
 
 # Funcionamiento
 
