@@ -34,12 +34,13 @@
 
 * [Introducción](#introduccion)
 * [Justifucación](#justificacion)
-* [Funcionamiento](#funcionamiento)
+* [Desarrollo](#desarrollo)
   * [XAMPP](#xampp)
   * [PHP](#php)
   * [MySql-MariaDB](#databases)
   * [¿Qué es ngrok?](#ngrok)
-
+* [Conclusión](#conclusion)
+* [Referencias](#referencias)
 
 <div style="text-align: justify">
 
@@ -57,9 +58,9 @@ El proyecto a desarrollar se basa en una aplicación web enfocada en la gestión
 
 El propósito de su funcionamiento es presentar una plataforma donde se pueda manejar el envío de correos electrónicos desde un servidor Apache y en colaboración con dos de las principales empresas que se dedican al envío de mensajería digital (Google y Microsoft).
 
-<div id='funcionamiento'/>
+<div id='desarrollo'/>
 
-# Funcionamiento
+# Desarrollo
 
 <div id='xampp'/>
 
@@ -135,5 +136,13 @@ Después se desplegará lo siguiente:
 ![Screenshot_20201207_145008](https://i.imgur.com/bhhILcH.png)
 
 Aquí se muestra la información, el estado de la conexión y la URL que se nos asigna (dicha URL vence cada 8 horas y se cambia por otra).
+
+<div id='conclusion'/>
+
+# Conclusión
+
+<div id='referencias'/>
+
+# Referencias
 
 </div>
