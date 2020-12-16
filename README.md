@@ -140,6 +140,8 @@ Aquí se muestra la información, el estado de la conexión y la URL que se nos 
 <div id='conclusion'/>
 
 # Conclusión
+El proyecto desarrollado implementó exitosamente varios temas, herramientas y aspectos que se estudiaron a lo largo del curso. Su desarrollo tuvo una valiosa aportación en lo que a conocimiento y práctica respecta, ya que conceptos como un servidor, los protocolos bajo los que se trabaja y la implementación de todo dentro de una página web quedaron esclarecidos al verlos aplicados en un caso real. Las bases de dicho proyecto parten de lo que se realizó durante las últimas prácticas y se logró brindar un pequeño servicio de mensajería con lo previamente establecido.
+
 
 <div id='referencias'/>
 
