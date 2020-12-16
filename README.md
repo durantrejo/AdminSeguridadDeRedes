@@ -38,6 +38,7 @@
   * [XAMPP](#xampp)
   * [PHP](#php)
   * [MySql-MariaDB](#databases)
+  * [PHPMailer](#phpmailer)
   * [¿Qué es ngrok?](#ngrok)
 * [Conclusión](#conclusion)
 * [Referencias](#referencias)
@@ -111,6 +112,37 @@ Los sistemas de gestión de bases de datos MySQL y MariaDB están basados en el 
 * Asistencia técnica
 * Documentación y comunidad.
 
+<div id='phpmailer'/>
+
+## PHPMailer
+
+![76f5e300-dfa3-11e9-9f51-9571102b4fc9](https://i.imgur.com/knnMcvJ.png)
+
+Muchos desarrolladores de PHP necesitan enviar correos electrónicos desde su código. La única función de PHP que admite esto directamente es mail (). Sin embargo, no proporciona ninguna ayuda para hacer uso de funciones populares como cifrado, autenticación, mensajes HTML y archivos adjuntos.
+
+Dar formato al correo electrónico correctamente es sorprendentemente difícil. Hay una miríada de estándares superpuestos (y contradictorios) que requieren un estricto cumplimiento de reglas de formato y codificación horriblemente complicadas: la gran mayoría del código que encontrará en línea que usa la función mail () directamente es simplemente incorrecto, ¡si no inseguro!
+
+La función PHP mail () generalmente envía a través de un servidor de correo local, generalmente encabezado por un binario sendmail en plataformas Linux, BSD y macOS, sin embargo, Windows generalmente no incluye un servidor de correo local; El cliente SMTP integrado de PHPMailer permite el envío de correo electrónico en todas las plataformas sin necesidad de un servidor de correo local. Sin embargo, tenga en cuenta que la función mail () debe evitarse cuando sea posible; es más rápido y seguro usar SMTP en localhost.
+
+## Caracteristicas
+
+¡Probablemente el código más popular del mundo para enviar correos electrónicos desde PHP!
++ Utilizado por muchos proyectos de código abierto: WordPress, Drupal, 1CRM, SugarCRM, Yii, Joomla! y muchos más
++ Soporte SMTP integrado: envíe sin un servidor de correo local
++ Envíe correos electrónicos con múltiples direcciones Para, CC, CCO y de respuesta
++  Correos electrónicos multiparte / alternativos para clientes de correo que no leen correo electrónico HTML
++ Agregar archivos adjuntos, incluidos en línea
++ Soporte para contenido UTF-8 y codificaciones de 8 bits, base64, binarias e imprimibles entre comillas
++ Autenticación SMTP con mecanismos LOGIN, PLAIN, CRAM-MD5 y XOAUTH2 sobre transportes SMTPS y SMTP + STARTTLS
++ Valida las direcciones de correo electrónico automáticamente
++ Protege contra ataques de inyección de encabezado
++ ¡Mensajes de error en más de 50 idiomas!
++ Soporte de firma DKIM y S / MIME
++ Compatible con PHP 5.5 y posterior, incluido PHP 8.0
++ Espaciado de nombres para evitar conflictos de nombres
+
+
+
 <div id='ngrok'/>
 
 ## ¿Qué es ngrok? 
@@ -146,5 +178,15 @@ El proyecto desarrollado implementó exitosamente varios temas, herramientas y a
 <div id='referencias'/>
 
 # Referencias
+
+Marcus Bointon. (2013). PHPMailer. Diciembre 16, 2020, de GitHub Sitio web: https://github.com/PHPMailer/PHPMailer
+
+Alex Arenols Solano. (Enero 01, 2019). Qué es PHP: Características y usos. Diciembre 16, 2020, de OpenWebinars Sitio web: https://openwebinars.net/blog/que-es-php/
+
+Pedro Luis Antona Díaz. (Septiembre 20, 2020). ¿Qué es ngrok? . Diciembre 14, 2020, de Un poco de Java Sitio web: https://unpocodejava.com/2020/09/30/que-es-ngrok/
+
+Antonio Olmos. (Octubre 03, 2018). Diferencias entre MySQL y MariaDB. Diciembre 14, 2020, de Overant Sitio web: https://www.overant.com/blog/diferencias-entre-mysql-y-mariadb/
+
+
 
 </div>
